@@ -1,1 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-instrument: "Instrument Sans", sans-serif;
+}
+
+:root {
+  --primary-dark: #202124;
+  --accent-green: #09b850;
+  --surface-dark: #292a2d;
+  --black-custom: #000000;
+  --gray-custom: #606261;
+  --white-custom: #f8f8f8;
+}
+
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
+  color: var(--primary-dark);
+  margin-bottom: 0.5rem;
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+p {
+  color: var(--gray-custom)
+}
