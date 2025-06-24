@@ -29,7 +29,7 @@ function Hero() {
           websites.
         </p>
         <form className="mt-6.5 p-2 border-1 border-gray-300 rounded-md">
-          <div className="flex">
+          <div className="flex justify-between">
             <input
               type="text"
               placeholder="Enter your email address"
@@ -64,8 +64,8 @@ function Hero() {
               5K+
             </h6>
             <ul className="flex">
-              {avatars.map((avatar) => (
-                <li className="h-9 w-9 ml-[-12.8px]">
+              {avatars.map((avatar, i) => (
+                <li key={i} className="h-9 w-9 ml-[-12.8px]">
                   <img src={avatar} alt="avatar" className="rounded-full" />
                 </li>
               ))}
