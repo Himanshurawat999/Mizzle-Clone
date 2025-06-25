@@ -5,6 +5,10 @@ import Hero from "./Hero";
 import CustomerLogo from "./CustomerLogo";
 import Gallery from "./Gallery";
 import Testimonial from "./Testimonial";
+import Pricing from "./Pricing";
+import Reviews from "./Reviews";
+import CTA from "./CTA";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -14,6 +18,10 @@ function App() {
       <CustomerLogo />
       <Gallery />
       <Testimonial />
+      <Pricing />
+      <Reviews />
+      <CTA />
+      <Footer />
     </main>
   );
 }

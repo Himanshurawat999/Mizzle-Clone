@@ -7,16 +7,22 @@ import Logo5 from "./assets/05.svg?react";
 
 function CustomerLogo() {
   return (
-    <div className="w-[92vw] m-auto pt-20">
-      <div className="mb-2">
-        <h5 className="text-xl">100+ Companies trust us</h5>
+    <div className="w-[92vw] m-auto pt-20 lg:w-[85vw] lg:flex">
+      <div className="mb-2 lg:w-[285px]">
+        <h5 className="text-xl lg:text-3xl">100+ Companies trust us</h5>
       </div>
       <ul className="flex items-center">
         <li>
-          <Logo1 className="w-[10.7rem] h-14 mr-4" />
+          <Logo1 className="w-[10.7rem] h-14 mr-4 lg:mr-10" />
         </li>
         <li>
-          <Logo2 className="w-[10.7rem] h-14 " />
+          <Logo5 className="w-[10.7rem] h-14 lg:mr-10" />
+        </li>
+        <li className="hidden lg:block">
+          <Logo3 className="w-[10.7rem] h-14 mr-10" />
+        </li>
+        <li className="hidden lg:block">
+          <Logo4 className="w-[10.7rem] h-14 mr-4" />
         </li>
       </ul>
     </div>

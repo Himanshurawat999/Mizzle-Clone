@@ -55,17 +55,17 @@ const cards = [
 function Testimonial() {
   return (
     <div className="w-full bg-[var(--primary-dark)]">
-      <div className="w-[92vw] m-auto py-20">
+      <div className="w-[92vw] m-auto py-20 lg:w-[85vw] lg:py-30">
         <div className="text-center">
-          <span className="bg-[var(--surface-dark)] text-[var(--white-custom)] px-3 py-2 rounded-md text-[0.87rem]">
+          <span className="bg-[var(--surface-dark)] text-[var(--white-custom)] px-3 py-2 rounded-md text-[0.87rem] lg:text-[1rem]">
             🚀 Innovative solutions, Measurable results
           </span>
-          <h2 className="mt-6 text-3xl " style={{ color: "white" }}>
+          <h2 className="mt-6 text-3xl lg:text-5xl lg:px-30" style={{ color: "white" }}>
             We specialize in the following services
           </h2>
         </div>
 
-        <div className="cards">
+        <div className="cards lg:mt-10 lg:grid lg:grid-cols-4 lg:gap-4">
           {cards.map((card, i) => {
             const Icon = card.logo;
             return (
