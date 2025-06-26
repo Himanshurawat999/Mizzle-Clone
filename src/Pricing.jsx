@@ -76,7 +76,7 @@ function Pricing() {
                 Custom pricing plan
               </h4>
             </div>
-            <div className="mt-32 flex flex-col">
+            <div className="mt-32 flex flex-col ">
               <button className="px-4 py-2 font-[500] bg-[var(--white-custom)] tracking-[0.5px] rounded-sm mb-1.5">
                 Contact Sales
               </button>

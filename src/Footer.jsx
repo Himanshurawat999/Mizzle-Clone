@@ -24,7 +24,7 @@ function Footer() {
         </div>
 
         <div className="mt-6 flex flex-wrap lg:w[757px]">
-          <div className="px-3">
+          <div className="px-3 lg:w-[253px]">
             <h6 className="mb-2" style={{ color: "white" }}>
               Quick links
             </h6>
@@ -44,7 +44,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="px-3">
+          <div className="px-3 lg:w-[253px]">
             <h6 className="mb-2" style={{ color: "white" }}>
               Community
             </h6>
@@ -63,15 +63,15 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="mt-6">
-            <h6 className="mb-2" style={{ color: "white" }}>
+          <div className="mt-6 lg:w-[253px] lg:mt-0">
+            <h6 className="mb-2 lg:mb-6" style={{ color: "white" }}>
               App available on
             </h6>
-            <div className="mt-2 mb-6 flex gap-2.5">
+            <div className="mt-2 mb-6 flex gap-2.5 lg:mb-10">
               <Playstore />
               <Appstore />
             </div>
-            <h6 className="mb-2" style={{ color: "white" }}>
+            <h6 className="mb-2 lg:!mb-6" style={{ color: "white" }}>
               Follow on
             </h6>
             <ul className="flex items-center gap-3">
